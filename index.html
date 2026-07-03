@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>أطباقنا - Smart Recipe Finder</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <h1>🍽️ أطباقنا</h1>
+    <p>Smart Recipe Finder - اختر مكوناتك واكتشف وصفاتك</p>
+  </header>
+
+  <!-- MAIN -->
+  <main>
+
+    <section class="ingredients-section">
+      <h2>اختر المكونات</h2>
+
+      <div class="ingredients">
+
+        <label><input type="checkbox" id="egg" value="egg">egg</label>
+        <label><input type="checkbox" id="cheese" value="cheese"> cheese</label>
+        <label><input type="checkbox" id="tomato" value="tomato"> tomato</label>
+
+      </div>
+
+      <button onclick="findRecipes()">find your recipe </button>
+    </section>
+
+    <!-- RESULTS -->
+      <h3 id="result"  class="results" >results</h3>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>Built by Inès  | Smart Recipe Finder</p>
+  </footer>
+</body>
